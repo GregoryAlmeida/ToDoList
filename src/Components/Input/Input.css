@@ -1,0 +1,17 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+label {
+  padding: .5rem;
+}
+
+input {
+  background-color: #2e86de;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #2e86de;
+}

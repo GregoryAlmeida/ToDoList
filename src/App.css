@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif, Arial;
+  background-color: #2e86de;
+  color: white;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  background-color: #0abde3;
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+}
+
+header h1 {
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
+
+section div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.adicionar {
+  margin: auto;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: #2ecc71;
+  border: none;
+  box-shadow: 0 3px 0 #2ecc71;
+  position: relative;
+}
+
+.adicionar:active {
+  top: 3px;
+  box-shadow: 0 0px 0 #2ecc71;
+}
+
+section span {
+  display: flex;
+  padding: .5rem;
+  justify-content: space-around;
+  width: 100%;
+  border: 1px solid #2e86de;
+  border-radius: 5px;
+  text-align: center;
+}
+
+section span h2 {
+  padding: 1;
+}
+
+.div-p {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btnDeletar {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.status p {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 5px;
+}
